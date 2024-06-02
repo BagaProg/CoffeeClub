@@ -1,6 +1,6 @@
 # Coffee Club 
 ## is a landing page
-*The site has the following features:*
+### The site has the following features:
 - Adaptive
 - Good design
 - multi-page
