@@ -128,7 +128,7 @@ a{
 .main__text{
     z-index: 2;
     position: absolute;
-    top: 22%;
+    top: 200px;
     font-size: 30px;
 }
 .main__video::before {
