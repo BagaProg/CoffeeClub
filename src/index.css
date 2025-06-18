@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+@layer base {
+
+	/* Box-sizing: border-box для всех элементов */
+	*,
+	*::before,
+	*::after {
+		box-sizing: border-box;
+	}
+
+	/* Убираем внутренние отступы и внешние отступы по умолчанию */
+	body,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p,
+	ul,
+	ol,
+	figure,
+	blockquote {
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		list-style-type: none;
+	}
+
+	html {
+		scroll-behavior: smooth;
+	}
+
+	/* Сбрасываем список маркеров */
+	ul,
+	ol {
+		list-style: none;
+	}
+
+	/* Устанавливаем стандартное семейство шрифтов и базовый размер */
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 16px;
+		line-height: 1.5;
+		color: #333;
+	}
+
+	/* Ссылки: убираем подчеркивание и задаем цвет */
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	/* Изображения: корректируем размеры */
+	img {
+		max-width: 100%;
+		height: auto;
+		display: block;
+	}
+
+	/* Убираем стандартные стили для элементов формы */
+	button,
+	input,
+	textarea,
+	select {
+		font: inherit;
+		border: none;
+		outline: none;
+	}
+
+	/* Добавляем плавный скроллинг */
+	html {
+		scroll-behavior: smooth;
+	}
+
+	/* Базовые стили для заголовков */
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-weight: bold;
+	}
+
+	/* Стили для кнопок */
+	button {
+		cursor: pointer;
+	}
+
+	/* Разделяемый контент для текстовых элементов */
+	blockquote,
+	q {
+		quotes: none;
+	}
+
+	/* Обнуляем overflow у body */
+	body {
+		overflow-x: hidden;
+		font-family: 'Inter', sans-serif;
+		background-color: #151515;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p,
+	li,
+	a,
+	span:not(h1.black,
+		h2.black,
+		h3.black,
+		h4.black,
+		h5.black,
+		h6.black,
+		p.black,
+		li.black,
+		a.black,
+		span.black) {
+		color: #fff;
+	}
+
+	.black {
+		color: #000;
+	}
+}
