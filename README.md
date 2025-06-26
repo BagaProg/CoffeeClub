@@ -10,3 +10,10 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+**CoffeeClub** — responsive multilingual landing page built with React, Tailwind and Vite. Designed with a mobile-first and responsive layout
+
+**Figma**:
+![Design](https://www.figma.com/design/MHeWNdsKXCUhOZcHR8EPmu/Coffee-Club?node-id=0-1&t=nTenWACJLWw9gzXI-1) is here!
